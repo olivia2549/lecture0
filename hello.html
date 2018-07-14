@@ -10,8 +10,24 @@
   Hello, World! Hello again!
   Here is a new feature yay
   <form>
-    <input type="text" placeholder="Full Name" name="name">
-    <button type="button">Submit</button>
+    <div>
+      <input type="text" placeholder="Name" name="name">
+      <input type="password" name="password" placeholder="Password">
+    </div>
+    <div>
+      Favorite color?
+      <input type="radio" name="color" value="red"> red
+      <input type="radio" name="color" value="blue"> blue
+      <input type="radio" name="color" value="green"> green
+      <input type="radio" name="color" value="other"> other
+    </div>
+    <div>
+      <input name="country" list="countries" placeholder="Country">
+      <datalist id="countries">
+        <option value="Afghanistan"></option>
+        <option value="Albania"></option>
+        <option value="Algeria"></option>
+    </div>
   </form>
 </body>
 </html>
